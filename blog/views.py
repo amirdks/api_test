@@ -7,4 +7,4 @@ from django.views import View
 
 class IndexView(View):
     def get(self, request):
-        return HttpResponse('hello mother fucker')
+        return HttpResponse("hello mother fucker")
